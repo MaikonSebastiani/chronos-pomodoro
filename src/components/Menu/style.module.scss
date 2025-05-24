@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3.5rem;
+  a {
+    background-color: var(--primary);
+    color: var(--text-over-primary);
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
