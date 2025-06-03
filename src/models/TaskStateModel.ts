@@ -1,14 +1,14 @@
-import type { Taskmodel } from "./TaskModel"
+import type { TaskModel } from "./TaskModel"
 
 export type TaskStateModel = {
-  tasks: Taskmodel[]
-  secondRemaining: number
+  tasks: TaskModel[]
+  secondsRemaining: number
   formattedSecondsRemaining: string
-  activeTask: Taskmodel | null
+  activeTask: TaskModel | null
   currentCycle: number
   config: {
     workTime: number
-    shortBreaktime: number
+    shortBreakTime: number
     longBreakTime: number
   }
 }

@@ -15,4 +15,9 @@
     background: var(--gray-900);
     color: var(--text-default);
   }
+
+  p {
+    text-align: center;
+    margin: 15px 0;
+  }
   

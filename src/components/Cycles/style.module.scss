@@ -14,13 +14,13 @@
       width: 2rem;
       height: 2rem;
       border-radius: 50%;
-      &.worktime {
+      &.workTime {
         background-color: var(--warning);
       }
-      &.shortBreaktime {
+      &.shortBreakTime {
         background-color: var(--success);
       }
-      &.longBreaktime {
+      &.longBreakTime {
         background-color: var(--info);
       }
     }

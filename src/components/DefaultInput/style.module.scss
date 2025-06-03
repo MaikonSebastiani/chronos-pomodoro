@@ -26,6 +26,7 @@
       outline: none;
       border: 2px solid var(--primary);
       border-radius: 0.8rem;
+      background-color: transparent;
     }
     &:disabled {
       border-bottom: 2px solid var(--disabled);

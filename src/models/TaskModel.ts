@@ -1,10 +1,10 @@
-import type { TaskStateModel } from "./taskStateModel"
+import type { TaskStateModel } from "./TaskStateModel"
 
-export type Taskmodel = {
+export type TaskModel = {
   id: string
   name: string
   duration: number
-  starDate: number
+  startDate: number
   completeDate: number | null
   interruptDate: number | null
   type: keyof TaskStateModel['config']
